@@ -2,14 +2,16 @@
     <div class="container">
         <div class="contaner-nav">
             <nav class="navigation">
-                <a class="logo" href="">
-                    <svg class="logo__svg" width="138" height="17">
-                        <use href="./images/sprite.svg#icon-logo-spacex"></use>
-                    </svg>
-                </a>
+                <div class="logo-wrapper">
+                    <a class="logo logo-underline" href="">
+                        <svg class="logo__svg animate__animated animate__flipInX" width="138" height="17">
+                            <use href="./images/sprite.svg#icon-logo-spacex"></use>
+                        </svg>
+                    </a>
+                </div>
                 <ul class="nav-left-list">
                     <li class="nav-left-list__item"><a class="nav-left-list__link" href="">Falcon 9</a></li>
-                    <li class="nav-left-list__item"><a class="nav-left-list__link" href="">Falcon Heavy</a></li>
+                    <li class="nav-left-list__item"><a class="nav-left-list__link nav-left-list__link-here" href="">Falcon Heavy</a></li>
                     <li class="nav-left-list__item"><a class="nav-left-list__link" href="">Dragon</a></li>
                     <li class="nav-left-list__item"><a class="nav-left-list__link" href="">Updates</a></li>
                 </ul>
@@ -18,11 +20,47 @@
                     <li class="nav-right-list__item"><a class="nav-right-list__link" href="">Gallery</a></li>
                     <li class="nav-right-list__item"><a class="nav-right-list__link" href="">Shop</a></li>
                 </ul>
+                <button class="menu-button js-open-menu" type="button">
+                    <svg class="menu-button__svg " width="20" height="20">
+                        <use href="./images/sprite.svg#icon-menu-mob"></use>
+                    </svg>
+                </button>
             </nav>
+            <div class="mob-menu tab-menu js-menu-container">
+                <div class="container-menu">
+                    <button class="close-menu-btn js-close-menu" type="button">
+                        <svg class="menu-close-button__svg " width="15" height="22">
+                            <use href="./images/sprite.svg#icon-mob-close-btn"></use>
+                        </svg>
+                    </button>
+                    <div class="menu-wrapper">
+                        <nav class="nav-mob">
+                            <ul class="nav-mob-main-list">
+                                <li class="nav-mob-main-list__item"><a class="nav-mob-main-list__link" href="">Falcon 9</a></li>
+                                <li class="nav-mob-main-list__item"><a class="nav-mob-main-list__link " href="">Falcon Heavy</a></li>
+                                <li class="nav-mob-main-list__item"><a class="nav-mob-main-list__link" href="">Dragon</a></li>
+                                <li class="nav-mob-main-list__item"><a class="nav-mob-main-list__link" href="">Updates</a></li>
+                            </ul>
+                            <ul class="nav-mob-list">
+                                <li class="nav-mob__item"><a class="nav-mob__link" href="">About</a></li>
+                                <li class="nav-mob__item"><a class="nav-mob__link" href="">Gallery</a></li>
+                                <li class="nav-mob__item"><a class="nav-mob__link" href="">Shop</a></li>
+                            </ul>
+                        </nav>    
+                    </div>
+                    <div class="logo-wrapper">
+                        <a class="logo logo-underline" href="">
+                            <svg class="logo__svg animate__animated animate__flipInX" width="138" height="17">
+                                <use href="./images/sprite.svg#icon-logo-spacex"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="wrapper-title">
-            <h1 class="title">Falcon Heavy</h1>
-            <p class="text">The most powerful operational rocket in the world by a factor of two</p>
+            <h1 class="title animate__animated animate__zoomIn">Falcon Heavy</h1>
+            <p class="text animate__animated animate__zoomIn">The most powerful operational rocket in the world by a factor of two</p>
         </div>
     </div>
 </section>
