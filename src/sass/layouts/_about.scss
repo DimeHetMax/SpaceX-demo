@@ -1,0 +1,106 @@
+.about{
+    padding-top: 110px;
+    padding-bottom: 200px;
+    background: $section-background;
+    @media screen and (min-width: 768px) {
+        padding-top: 400px;
+        padding-bottom: 300px;
+      }
+    @media screen and (min-width: 1320px) {
+        padding-top: 490px;
+        padding-bottom: 400px;
+      }
+}
+.about-picture{
+    background-image: url(../images/rocket-1x.png);
+        background-size: 194px 753px;
+        background-repeat: no-repeat;
+        background-position: top right -28px;
+  
+    
+      @media screen and (min-width: 768px) {
+        background-size: 473px 1568px;
+        background-repeat: no-repeat;
+        background-position: top right -30px;
+        }
+    
+      @media screen and (min-width: 1320px) {
+        background-size: 590px 1600px;
+        background-repeat: no-repeat;
+        background-position: top right 250px;
+      }
+    
+}
+.about-wrapper{
+    max-width: 360px;
+    
+      @media screen and (min-width: 768px) {
+        max-width: 420px;
+      }
+    
+      @media screen and (min-width: 1320px) {
+        max-width: 490px;
+      }
+}
+.about-wrapper:not(:last-child){
+    
+    @media screen and (min-width: 480px) {
+        margin-bottom: 90px;
+      }
+    
+      @media screen and (min-width: 768px) {
+        margin-bottom: 150px;
+      }
+    
+      @media screen and (min-width: 1320px) {
+        margin-bottom: 218px;
+      }
+}
+.secondaty-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.41;
+    text-transform: uppercase;
+    color: $main-text-color;
+    max-width: 180px;
+    margin-bottom: 15px;
+    
+      @media screen and (min-width: 768px) {
+        font-size: 22px;
+        line-height: 1.41;
+        max-width: 185px;
+        margin-bottom: 42px;
+      }
+    
+      @media screen and (min-width: 1320px) {
+        font-size: 24px;
+        line-height: 1.41;
+        max-width: 190px;
+        margin-bottom: 45px;
+      }
+}
+.section-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.81;
+    color: $main-text-color;
+    @media screen and (min-width: 480px) {
+        font-size: 12px;
+      }
+    
+      @media screen and (min-width: 768px) {
+        font-size: 14px;
+      }
+    
+      @media screen and (min-width: 1320px) {
+        font-size: 16px;
+      }
+}
+.about-bottom__text--span{
+    color: $secondary-text-color;
+}
+.about-top__text:not(:last-child){
+    margin-bottom: 11px;
+}
